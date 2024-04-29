@@ -9,16 +9,64 @@
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private void aventura_Clicked(object sender, EventArgs e)
         {
-            count++;
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
+        }
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
+        private void comedia_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void drama_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void terror_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ficcaoc_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void suspense_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void infantil_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void animacao_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void documentario_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guerra_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nacional_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void romance_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 
