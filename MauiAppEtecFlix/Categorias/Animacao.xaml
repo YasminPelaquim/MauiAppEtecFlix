@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppEtecFlix.Categorias.Animacao"
+             Title="Animacao"
+             BackgroundColor="#2f2f30">
+    <VerticalStackLayout>
+        <ScrollView>
+            <Grid RowDefinitions="300, 300, 300"
+                  ColumnDefinitions="*, *"
+                  Padding="5">
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
+                             Source="walle.jpg" x:Name="btnWalle"
+                             Clicked="btnWalle_Clicked" />
+                <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0" Source="aguaabaixo.jpg" x:Name="btnAguaabaixo" Clicked="btnAguaabaixo_Clicked" />
+            </Grid>
+        </ScrollView>
+    </VerticalStackLayout>
+</ContentPage>

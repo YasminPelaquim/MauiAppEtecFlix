@@ -11,7 +11,15 @@
 
         private void aventura_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                Navigation.PushAsync(new Categorias.Aventura());
 
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops", ex.Message, "OK");
+            }
         }
 
         private void comedia_Clicked(object sender, EventArgs e)

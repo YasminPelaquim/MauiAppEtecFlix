@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppEtecFlix.Categorias.Aventura"
+             Title="Aventura"
+             BackgroundColor="#2f2f30">
+    <VerticalStackLayout>
+        <ScrollView>
+            <Grid RowDefinitions="300, 300, 300"
+                  ColumnDefinitions="*, *"
+                  Padding="5">
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
+                             Source="jumanji.jpg" x:Name="btnJumanji"
+                             Clicked="btnJumanji_Clicked" />
+                <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0" Source="jurassic.jpg" x:Name="btnJurassic" Clicked="btnJurassic_Clicked" />
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1" Source="zathura.jpg" x:Name="btnZathura" Clicked="btnZathura_Clicked" />
+                <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="1" Source="harry.jpg" x:Name="btnHarry" Clicked="btnHarry_Clicked" />
+            </Grid>
+        </ScrollView>
+        
+    </VerticalStackLayout>
+</ContentPage>
