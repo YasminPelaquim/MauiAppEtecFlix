@@ -16,4 +16,14 @@ public partial class Animacao : ContentPage
     {
 
     }
+
+    private void btnLuca_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btnToystory_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

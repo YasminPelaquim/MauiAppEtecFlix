@@ -54,7 +54,15 @@
 
         private void animacao_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                Navigation.PushAsync(new Categorias.Animacao());
 
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops", ex.Message, "OK");
+            }
         }
 
         private void documentario_Clicked(object sender, EventArgs e)

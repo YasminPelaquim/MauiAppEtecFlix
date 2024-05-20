@@ -2,11 +2,38 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppEtecFlix.Filmes.jumanji"
-             Title="jumanji">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="jumanji"
+             BackgroundColor="#2f2f30">
+    <Grid RowDefinitions="*, *" ColumnDefinitions="*">
+
+        <WebView Grid.Column="0" Grid.Row="0"
+                 Source="https://www.youtube.com/embed/tnpV3q8Q3gg?si=RT4cGGGOZl-Rx66_" />
+
+        <ScrollView Grid.Row="1" Grid.Column="0">
+            <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
+                <Image Grid.Column="0" Grid.Row="0"
+                       Source="jumanji.jpg" Aspect="AspectFill"  HeightRequest="300" />
+                <StackLayout VerticalOptions="CenterAndExpand"
+                             Grid.Column="1" Grid.Row="0">
+                    <Label Text="Data de Lançamento"
+                           Style="{StaticResource titulo}" />
+                    <Label Text="4 de janeiro de 2018"
+                           Style="{StaticResource textoTitulo}" />
+                    <Label Text="Direção" Margin="0, 20, 0, 0"
+                           Style="{StaticResource titulo}" />
+                    <Label Text="Jake Kasdan"
+                           Style="{StaticResource textoTitulo}" />
+                </StackLayout>
+                <StackLayout Grid.Column="0" Grid.Row="1"
+                             Grid.ColumnSpan="2">
+
+                    <Label Text="Sinopse"
+                           Style="{StaticResource titulo}" />
+                    <Label x:Name="sinopse" Text="Quatro adolescentes encontram um videogame cuja ação se passa em uma floresta tropical. Empolgados com o jogo, eles escolhem seus avatares para o desafio, mas um evento inesperado faz com que eles sejam transportados para dentro do universo fictício, transformando-os nos personagens da aventura."
+                           FontSize="Medium" Padding="5" />
+                </StackLayout>
+                
+            </Grid>
+        </ScrollView>
+    </Grid>
 </ContentPage>
