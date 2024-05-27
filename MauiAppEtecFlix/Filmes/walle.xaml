@@ -2,11 +2,37 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppEtecFlix.Filmes.walle"
-             Title="walle">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="walle"
+             BackgroundColor="#2f2f30">
+    <Grid  RowDefinitions="*, *" ColumnDefinitions="*">
+
+        <WebView Grid.Column="0" Grid.Row="0"
+                 Source="https://www.youtube.com/embed/CZ1CATNbXg0?si=I8xZV3zfSsw9m0i-" />
+
+        <ScrollView Grid.Row="1" Grid.Column="0">
+            <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
+                <Image Grid.Column="0" Grid.Row="0"
+                       Source="walle.jpg" Aspect="AspectFill" HeightRequest="300" />
+                <StackLayout VerticalOptions="CenterAndExpand"
+                             Grid.Column="1" Grid.Row="0">
+                    <Label Text="Data de Lançamento"
+                           Style="{StaticResource titulo}" />
+                    <Label Text="27 de junho de 2008"
+                           Style="{StaticResource textoTitulo}" />
+                    <Label Text="Direção" Margin="0, 20, 0, 0"
+                           Style="{StaticResource titulo}" />
+                    <Label Text="Andrew Stanton"
+                           Style="{StaticResource textoTitulo}" />
+                </StackLayout>
+                <StackLayout Grid.Column="0" Grid.Row="1"
+                             Grid.ColumnSpan="2">
+
+                    <Label Text="Sinopse"
+                           Style="{StaticResource titulo}" />
+                    <Label x:Name="sinopse" Text="Após entulhar a Terra de lixo e poluir a atmosfera com gases tóxicos, a humanidade deixou o planeta e passou a viver em uma gigantesca nave. O plano era que o retiro durasse alguns poucos anos, com robôs sendo deixados para limpar o planeta. WALL-E é o último destes robôs, e sua vida consiste em compactar o lixo existente no planeta. Até que um dia surge repentinamente uma nave, que traz um novo e moderno robô: Eva. A princípio curioso, WALL-E se apaixona e resolve segui-la por toda a galáxia."
+                           FontSize="Medium" Padding="5" />
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </Grid>
 </ContentPage>

@@ -15,19 +15,19 @@
                        Source="jurassic.jpg" Aspect="AspectFill" HeightRequest="300" />
                 <StackLayout VerticalOptions="CenterAndExpand"
                              Grid.Column="1" Grid.Row="0">
-                    <Label Text="Data de Lançamento"
+                    <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="13 de junho de 1993"
+                    <Label Text="13 de junho de 1993" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
-                    <Label Text="Direção" Margin="0, 20, 0, 0"
+                    <Label Text="Direção" Margin="0, 20, 0, 0" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="Steven Spielberg"
+                    <Label Text="Steven Spielberg" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
                              Grid.ColumnSpan="2">
 
-                    <Label Text="Sinopse"
+                    <Label Text="Sinopse" Margin="20, 20, 20, 0" FontSize="Medium"
                         Style="{StaticResource titulo}" />
                     <Label x:Name="sinopse" Text="Os paleontólogos Alan Grant, Ellie Sattler e o matemático Ian Malcolm fazem parte de um seleto grupo escolhido para visitar uma ilha habitada por dinossauros criados a partir de DNA pré-histórico. O idealizador do projeto e bilionário John Hammond garante a todos que a instalação é completamente segura. Mas após uma queda de energia, os visitantes descobrem, aos poucos, que vários predadores ferozes estão soltos e à caça."
                         FontSize="Medium" Padding="5" />
