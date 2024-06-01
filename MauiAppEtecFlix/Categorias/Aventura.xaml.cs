@@ -35,11 +35,26 @@ public partial class Aventura : ContentPage
 
     private void btnZathura_Clicked(object sender, EventArgs e)
     {
+        try
+        {
+            Navigation.PushAsync(new Filmes.zathura());
 
+        }
+        catch (Exception ex)
+        {
+            DisplayAlert("Ops", ex.Message, "OK");
+        }
     }
 
     private void btnHarry_Clicked(object sender, EventArgs e)
     {
-
+        try
+        {
+            Navigation.PushAsync(new Filmes.harry());
+        }
+        catch (Exception ex)
+        {
+            DisplayAlert("Ops", ex.Message, "OK");
+        }
     }
 }
