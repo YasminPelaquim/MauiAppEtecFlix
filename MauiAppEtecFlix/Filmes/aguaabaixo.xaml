@@ -15,19 +15,19 @@
                        Source="aguaabaixo.jpg" Aspect="AspectFill" HeightRequest="300" />
                 <StackLayout VerticalOptions="CenterAndExpand"
                              Grid.Column="1" Grid.Row="0">
-                    <Label Text="Data de Lançamento"
+                    <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="15 de dezembro de 2006"
+                    <Label Text="15 de dezembro de 2006" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
-                    <Label Text="Direção" Margin="0, 20, 0, 0"
+                    <Label Text="Direção" Margin="0, 20, 0, 0" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="Sam Fell, David Bowers"
+                    <Label Text="Sam Fell, David Bowers" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
                              Grid.ColumnSpan="2">
 
-                    <Label Text="Sinopse"
+                    <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
                     <Label x:Name="sinopse" Text="Roddy é um ratinho acostumado a um bairro luxuoso de Londres. Sem querer, ele dá uma descarga infeliz e acaba nos esgotos, onde terá de aprender a viver de uma forma completamente diferente."
                            FontSize="Medium" Padding="5" />
