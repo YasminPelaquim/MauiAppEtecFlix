@@ -9,7 +9,10 @@
             <Grid RowDefinitions="300, 300, 300"
                   ColumnDefinitions="*, *"
                   Padding="5">
-               <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" Source=""
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" Source=" " x:Name=" " />
+                <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0" Source=" " x:Name=" " />
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1" Source=" " x:Name=" " />
+                <ImageButton Aspect="AspectFill"  Grid.Column="1" Grid.Row="1" Source=" " x:Name=" " />
             </Grid>
         </ScrollView>
     </VerticalStackLayout>

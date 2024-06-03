@@ -6,4 +6,9 @@ public partial class Infantil : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void btnLuck_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

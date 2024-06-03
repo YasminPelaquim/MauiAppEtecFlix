@@ -6,4 +6,9 @@ public partial class Suspense : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void btnTelefone_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

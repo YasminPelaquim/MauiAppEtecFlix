@@ -2,11 +2,36 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppEtecFlix.Filmes.exorcista"
-             Title="exorcista">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="exorcista"
+             BackgroundColor="#2f2f30">
+    <Grid RowDefinitions="*,*" ColumnDefinitions="*">
+
+        <WebView Grid.Column="0" Grid.Row="0"
+                 Source=" " />
+
+        <ScrollView Grid.Row="1" Grid.Column="0">
+            <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
+                <Image Grid.Column="0" Grid.Row="0"
+                       Source="exorcista.jpg" Aspect="AspectFill" HeightRequest="300" />
+                <StackLayout VerticalOptions="CenterAndExpand"
+                             Grid.Column="1" Grid.Row="0">
+                    <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource titulo}" />
+                    <Label Text="kkkkk" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource textoTitulo}" />
+                    <Label Text="Direção" Margin="0,20,0,0" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource titulo}" />
+                    <Label Text=" " HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource textoTitulo}" />
+                </StackLayout>
+                <StackLayout Grid.Column="0" Grid.Row="1"
+                             Grid.ColumnSpan="2">
+                    <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource titulo}" />
+                    <Label x:Name="sinopse" Text=" "
+                           FontSize="Medium" Padding="5" />
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </Grid>
 </ContentPage>
