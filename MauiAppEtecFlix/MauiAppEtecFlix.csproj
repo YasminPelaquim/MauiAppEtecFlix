@@ -60,30 +60,46 @@
 	  <None Remove="Resources\Images\adam.jpg" />
 	  <None Remove="Resources\Images\adoraveis.jpg" />
 	  <None Remove="Resources\Images\aguaabaixo.jpg" />
+	  <None Remove="Resources\Images\auto.jpeg" />
 	  <None Remove="Resources\Images\baleia.jpg" />
+	  <None Remove="Resources\Images\cinco.jpeg" />
+	  <None Remove="Resources\Images\comoeuera.jpeg" />
+	  <None Remove="Resources\Images\dezcoisas.jpeg" />
 	  <None Remove="Resources\Images\duna.jpg" />
 	  <None Remove="Resources\Images\elementos.jpg" />
+	  <None Remove="Resources\Images\elena.jpeg" />
 	  <None Remove="Resources\Images\exorcista.jpg" />
 	  <None Remove="Resources\Images\gente.jpg" />
 	  <None Remove="Resources\Images\harry.jpg" />
 	  <None Remove="Resources\Images\historias.jpg" />
+	  <None Remove="Resources\Images\hoje.jpeg" />
+	  <None Remove="Resources\Images\homem.jpeg" />
 	  <None Remove="Resources\Images\jumanji.jpg" />
 	  <None Remove="Resources\Images\juntos.jpg" />
 	  <None Remove="Resources\Images\jurassic.jpg" />
 	  <None Remove="Resources\Images\luca.png" />
 	  <None Remove="Resources\Images\luck.jpg" />
 	  <None Remove="Resources\Images\maze.jpg" />
+	  <None Remove="Resources\Images\menina.jpeg" />
+	  <None Remove="Resources\Images\minhamae.jpeg" />
 	  <None Remove="Resources\Images\mortedemonio.jpg" />
 	  <None Remove="Resources\Images\mulher.jpg" />
 	  <None Remove="Resources\Images\noite.jpg" />
 	  <None Remove="Resources\Images\paris.jpg" />
+	  <None Remove="Resources\Images\pearl.jpeg" />
 	  <None Remove="Resources\Images\planeta.jpg" />
 	  <None Remove="Resources\Images\queda.jpg" />
+	  <None Remove="Resources\Images\quehoras.jpeg" />
+	  <None Remove="Resources\Images\quemsou.jpeg" />
+	  <None Remove="Resources\Images\senna.jpeg" />
 	  <None Remove="Resources\Images\sexta.jpg" />
+	  <None Remove="Resources\Images\stuztz.jpeg" />
 	  <None Remove="Resources\Images\telefone.jpg" />
 	  <None Remove="Resources\Images\terrifier.jpg" />
 	  <None Remove="Resources\Images\toc.jpg" />
+	  <None Remove="Resources\Images\todos.jpeg" />
 	  <None Remove="Resources\Images\toystory.jpg" />
+	  <None Remove="Resources\Images\troia.jpeg" />
 	  <None Remove="Resources\Images\umlugar.jpg" />
 	  <None Remove="Resources\Images\walle.jpg" />
 	  <None Remove="Resources\Images\wish.jpg" />
@@ -143,13 +159,28 @@
 	  <MauiXaml Update="Filmes\aguaabaixo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Filmes\auto.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Filmes\baleia.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\cinco.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\comoeuera.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\dezcoisas.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\duna.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\elementos.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\elena.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\exorcista.xaml">
@@ -162,6 +193,12 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\historias.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\hoje.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\homem.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\jumanji.xaml">
@@ -182,6 +219,12 @@
 	  <MauiXaml Update="Filmes\maze.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Filmes\menina.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\minhamae.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Filmes\mortedemonio.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -194,13 +237,28 @@
 	  <MauiXaml Update="Filmes\paris.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Filmes\pearl.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Filmes\planeta.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\queda.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Filmes\quehoras.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\quemsou.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\senna.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Filmes\sexta.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\stuztz.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\telefone.xaml">
@@ -212,7 +270,13 @@
 	  <MauiXaml Update="Filmes\toc.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Filmes\todos.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Filmes\toystory.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\troia.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\umlugar.xaml">

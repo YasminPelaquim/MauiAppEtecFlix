@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppEtecFlix.Filmes.elena"
+             Title="elena"
+             BackgroundColor="#2f2f30">
+    <Grid RowDefinitions="*,*" ColumnDefinitions="*">
+
+        <WebView Grid.Column="0" Grid.Row="0"
+                 Source="https://www.youtube.com/embed/04VkZNIy298?si=n5jLrj-ksRGUIqf-" />
+
+        <ScrollView Grid.Row="1" Grid.Column="0">
+            <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
+                <Image Grid.Column="0" Grid.Row="0"
+                       Source="elena.jpeg" Aspect="AspectFill" HeightRequest="300" />
+                <StackLayout VerticalOptions="CenterAndExpand"
+                             Grid.Column="1" Grid.Row="0">
+                    <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource titulo}" />
+                    <Label Text="10 de maio de 2013" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource textoTitulo}" />
+                    <Label Text="Direção" Margin="0,20,0,0" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource titulo}" />
+                    <Label Text="Petra Costa" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource textoTitulo}" />
+                </StackLayout>
+                <StackLayout Grid.Column="0" Grid.Row="1"
+                             Grid.ColumnSpan="2">
+                    <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource titulo}" />
+                    <Label x:Name="sinopse" Text="Ao viajar para Nova York, Elena segue o sonho de se tornar atriz de cinema e deixa no Brasil uma infância vivida na clandestinidade, devido à ditadura militar implantada no país, e também a irmã mais nova, Petra, de apenas sete anos. Duas décadas depois, Petra, já atriz, embarca para Nova York atrás da irmã. Em sua busca Petra apenas tem algumas pistas, como cartas, diários e filmes caseiros. Ela acaba percorrendo os passos da irmã até encontrá-la em um lugar inesperado."
+                           FontSize="Medium" Padding="5" />
+                </StackLayout>
+                 
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>

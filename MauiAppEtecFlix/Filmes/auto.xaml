@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppEtecFlix.Filmes.auto"
+             Title="auto"
+             BackgroundColor="#2f2f30">
+    <Grid RowDefinitions="*,*" ColumnDefinitions="*">
+        
+    </Grid>
+</ContentPage>

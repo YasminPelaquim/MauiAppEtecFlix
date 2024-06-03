@@ -9,10 +9,10 @@
             <Grid RowDefinitions="300,300,300"
                   ColumnDefinitions="*,*"
                   Padding="5">
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" Source="luck.jpg" x:Name="btnLuck" />
-                <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0" Source="elementos.jpg" x:Name="btnElementos" />
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1" Source="wonka.jpg" x:Name="btnWonka" />
-                <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="1" Source="wish.jpg" x:Name="btnWish" />
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" Source="luck.jpg" x:Name="btnLuck" Clicked="btnLuck_Clicked" />
+                <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0" Source="elementos.jpg" x:Name="btnElementos" Clicked="btnElementos_Clicked" />
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1" Source="wonka.jpg" x:Name="btnWonka" Clicked="btnWonka_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="1" Source="wish.jpg" x:Name="btnWish" Clicked="btnWish_Clicked" />
             </Grid>
         </ScrollView>
     </VerticalStackLayout>
