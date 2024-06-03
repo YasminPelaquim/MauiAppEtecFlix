@@ -7,7 +7,7 @@
     <Grid RowDefinitions="*,*" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0"
-                 Source=" " />
+                 Source="https://www.youtube.com/embed/BydjQP2aFd0?si=PY1D9L_3LUVruYS6" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
@@ -17,18 +17,18 @@
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="kkkkk" HorizontalOptions="Center" FontSize="17"
+                    <Label Text="22 de junho de 2023" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                     <Label Text="Direção" Margin="0,20,0,0" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text=" " HorizontalOptions="Center" FontSize="17"
+                    <Label Text="Peter Sohn" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
                              Grid.ColumnSpan="2">
                     <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label x:Name="sinopse" Text=" "
+                    <Label x:Name="sinopse" Text="Elementos é um filme de animação que se passa em uma sociedade extraordinária chamada Cidade Elemento, na qual os quatro elementos da natureza - ar, terra, fogo e ar - vivem em completa harmonia. Na história, somos apresentados à Faísca (fogo, dublada por Leah Lewis), uma mulher espirituosa na faixa dos vinte anos, com um grande senso de humor e apaixonada pela família, mas que tem um temperamento um pouco quente; Gota (água, dublado por Mamoudou Athie) é um jovem empático, observador e extrovertido, que não tem medo de demonstrar suas emoções - na verdade, é até um pouco difícil controlá-las; Turrão (terra, dublado por Mason Wertheimer) é um garoto muito inteligente da terra que mora na Vila do Fogo, e está sempre perto de Faísca; e Névoa (ar, dublada por Wendi McLendon-Covey), que tem uma personalidade fofa e rosa, está sempre atenta às tendências da moda e é fã dos Windbreakers, um time de Air Ball."
                            FontSize="Medium" Padding="5" />
                 </StackLayout>
             </Grid>

@@ -7,7 +7,7 @@
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0"
-                 Source="hhttgvvcddgffggggg" />
+                 Source="https://www.youtube.com/embed/HKVve_VSz58?si=rrpiDdnKEwr0_DNM" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
@@ -17,18 +17,18 @@
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="kkkkkkkkkk" HorizontalOptions="Center" FontSize="17"
+                    <Label Text="24 de setembro de 2010" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}"  />
                     <Label Text="Direção" Margin="0, 20, 0, 0" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="lllololololol" HorizontalOptions="Center" FontSize="17"
+                    <Label Text="Dennis Dugan" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="0"
                              Grid.ColumnSpan="2">
                     <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label x:Name="sinopse" Text="lçpllpllllplççp"
+                    <Label x:Name="sinopse" Text="Em Gente Grande, Lenny (Adam Sandler), Kurt (Chris Rock), Eric (Kevin James), Marcus (David Spade) e Rob (Rob Schneider) se conhecem desde pequenos. Passados trinta anos, os cinco amigos se reencontram para curtir um fim de semana juntos com as respectivas famílias, mas o feriado de 4 de Julho em uma casa no lago promete muito mais diversão do que apenas lembranças dos bons momentos. Casados e com várias crianças, os homens de família terão de confrontar o fato de não serem mais tão jovens."
                            FontSize="Medium" Padding="5" />
                 </StackLayout>
             </Grid>

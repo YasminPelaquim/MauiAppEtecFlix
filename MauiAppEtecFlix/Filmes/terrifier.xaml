@@ -7,7 +7,7 @@
     <Grid RowDefinitions="*,*" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0"
-                 Source=" " />
+                 Source="https://www.youtube.com/embed/fN5j1MtGO2Q?si=mmvyRIpYW18t56Pc" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
@@ -17,18 +17,18 @@
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="kkkkk" HorizontalOptions="Center" FontSize="17"
+                    <Label Text="20 de março de 2023" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                     <Label Text="Direção" Margin="0,20,0,0" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text=" " HorizontalOptions="Center" FontSize="17"
+                    <Label Text="Damien Leone" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
                              Grid.ColumnSpan="2">
                     <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label x:Name="sinopse" Text=" "
+                    <Label x:Name="sinopse" Text="Em Terrifier, um programa de televisão passa. Nele, um repórter entrevista uma mulher gravemente desfigurada, a única sobrevivente de um massacre ocorrido no Halloween anterior. Brown menciona que o corpo do assassino, conhecido apenas como x, desapareceu do necrotério. Na véspera do Halloween, as garotas Dawn (Catherine Corcoran) e Tara (Jenna Kanell) procuram a melhor festa da cidade. Mas, em vez de passar a noite com álcool e garotos bonitos, eles vivenciam o momento mais cruel de suas vidas. Quando param em uma pequena lanchonete e pedem uma selfie ao palhaço Art (David Howard Thornton), Dawn e Tara não suspeitam de nenhum mal. Mas quando as jovens encontram o homem mascarado assustador novamente naquela mesma noite, o horror começa. Porque Art é um palhaço assassino - e tem suas próximas vítimas em vista..."
                            FontSize="Medium" Padding="5" />
                 </StackLayout>
             </Grid>

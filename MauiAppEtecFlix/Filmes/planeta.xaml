@@ -7,7 +7,7 @@
     <Grid RowDefinitions="*,*" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0"
-                 Source=" " />
+                 Source="https://www.youtube.com/embed/tb-xfRR-ig8?si=Yg1GWSClgUYyE0G5" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
@@ -17,18 +17,18 @@
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="kkkkk" HorizontalOptions="Center" FontSize="17"
+                    <Label Text="26 de agosto de 2011" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                     <Label Text="Direção" Margin="0,20,0,0" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text=" " HorizontalOptions="Center" FontSize="17"
+                    <Label Text="Rupert Wyatt" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
                              Grid.ColumnSpan="2">
                     <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label x:Name="sinopse" Text=" "
+                    <Label x:Name="sinopse" Text="San Francisco. Will Rodman (James Franco) é um cientista que trabalha em um laboratório onde são realizadas experiências com macacos. Ele está interessado em descobrir novos medicamentos para a cura do mal de Alzheimer, já que seu pai, Charles (John Lithgow), sofre da doença. Após um dos macacos escapar e provocar vários estragos, sua pesquisa é cancelada. Will não desiste e leva para casa algumas amostras do medicamento, aplicando-as no próprio pai, e também um filhote de macaco de uma das cobaias do laboratório. Logo Charles não apenas se recupera como tem a memória melhorada, graças ao medicamento. Já o filhote, que recebe o nome de César, demonstra ter inteligência fora do comum, já que recebeu geneticamente os medicamentos aplicados na mãe. O trio leva uma vida tranquila, até que, anos mais tarde, o remédio para de funcionar em Charles e, em uma tentativa de defendê-lo, César ataca um vizinho. O macaco é então engaiolado, onde passa a ter contato com outros símios e, cada vez mais, se revolta com a situação."
                            FontSize="Medium" Padding="5" />
                 </StackLayout>
             </Grid>

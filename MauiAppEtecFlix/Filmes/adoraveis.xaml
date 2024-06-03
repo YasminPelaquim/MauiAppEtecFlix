@@ -7,7 +7,7 @@
     <Grid RowDefinitions="*,*" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0"
-                 Source=" " />
+                 Source="https://www.youtube.com/embed/KYjn35w8UxU?si=E7i-WUllAgMnhj61" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
@@ -17,18 +17,18 @@
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text=" " HorizontalOptions="Center" FontSize="17"
+                    <Label Text="9 de janeiro de 2020" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                     <Label Text="Direção" Margin="0,20,0,0" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text=" " HorizontalOptions="Center" FontSize="17"
+                    <Label Text="Greta Gerwig" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
                              Grid.ColumnSpan="2">
                     <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label x:Name="sinopse" Text=" "
+                    <Label x:Name="sinopse" Text="As irmãs Jo (Saoirse Ronan), Beth (Eliza Scanlen), Meg (Emma Watson) e Amy (Florence Pugh) amadurecem na virada da adolescência para a vida adulta enquanto os Estados Unidos atravessam a Guerra Civil. Com personalidades completamente diferentes, elas enfrentam os desafios de crescer unidas pelo amor que nutrem umas pelas outras."
                            FontSize="Medium" Padding="5" />
                 </StackLayout>
             </Grid>

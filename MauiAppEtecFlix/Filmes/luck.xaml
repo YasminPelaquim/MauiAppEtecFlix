@@ -7,7 +7,7 @@
     <Grid RowDefinitions="*,*" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0"
-                 Source=" " />
+                 Source="https://www.youtube.com/embed/ylXHPR1H5Pc?si=ToklY_dWIazJz_ng" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
@@ -17,18 +17,18 @@
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="kkkkk" HorizontalOptions="Center" FontSize="17"
+                    <Label Text="25 de maio de 2023" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                     <Label Text="Direção" Margin="0,20,0,0" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text=" " HorizontalOptions="Center" FontSize="17"
+                    <Label Text="Peggy Holmes" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
                              Grid.ColumnSpan="2">
                     <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label x:Name="sinopse" Text=" "
+                    <Label x:Name="sinopse" Text="Em Luck, Sam Greenfield, a pessoa mais sem sorte do mundo, um belo dia encontra a desconhecida Terra da Sorte e vai em busca de um pouquinho de sorte na vida. Mas como humanos não são permitidos, sua única chance é juntar-se às criaturas mágicas que lá vivem. A Sorte e o Azar, duas organizações secretas, atuam há milênios na vida dos seres terrestres. O desvendamento de como essas instituições atuam irá revelar sua influência no nosso cotidiano."
                            FontSize="Medium" Padding="5" />
                 </StackLayout>
             </Grid>

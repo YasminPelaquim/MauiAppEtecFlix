@@ -7,7 +7,7 @@
     <Grid RowDefinitions="*,*" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0"
-                 Source=" " />
+                 Source="https://www.youtube.com/embed/oyRxxpD3yNw?si=GAYukeDD36Y_79nZ" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
@@ -17,18 +17,18 @@
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="kkkkk" HorizontalOptions="Center" FontSize="17"
+                    <Label Text="4 de janeiro de 2024" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                     <Label Text="Direção" Margin="0,20,0,0" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text=" " HorizontalOptions="Center" FontSize="17"
+                    <Label Text="Chris Buck, Fawn Veerasunthorn" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
                              Grid.ColumnSpan="2">
                     <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label x:Name="sinopse" Text=" "
+                    <Label x:Name="sinopse" Text="Como surgiu a estrela dos desejos, sobre a qual tantos personagens desejavam?. Essa é a história de Asha (Ariana DeBose), de dezessete anos, uma jovem otimista, com uma inteligência afiada que se preocupa infinitamente com sua comunidade. Em um momento de desespero, Asha faz um apelo apaixonado às estrelas, que é respondido por uma força cósmica, uma pequena bola de energia ilimitada chamada Estrela. Juntos, eles enfrentam o mais formidável dos inimigos para salvar sua comunidade e provar que quando a vontade de um humano corajoso se conecta com a magia das estrelas, coisas maravilhosas podem acontecer."
                            FontSize="Medium" Padding="5" />
                 </StackLayout>
             </Grid>

@@ -7,7 +7,7 @@
     <Grid RowDefinitions="*,*" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0"
-                 Source=" " />
+                 Source="https://www.youtube.com/embed/RLePXMcmuQY?si=24at2lOEtHxZdWT9" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
@@ -17,18 +17,18 @@
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="kkkkk" HorizontalOptions="Center" FontSize="17"
+                    <Label Text="14 de setembro de 2023" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                     <Label Text="Direção" Margin="0,20,0,0" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text=" " HorizontalOptions="Center" FontSize="17"
+                    <Label Text="Kenneth Branagh" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
                              Grid.ColumnSpan="2">
                     <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label x:Name="sinopse" Text=" "
+                    <Label x:Name="sinopse" Text="A Noite das Bruxas é um filme de investigação policial baseado no livro homônimo de Agatha Christie, conhecida por títulos como Assassinato no Expresso do Oriente e Morte no Nilo. No terceiro filme da saga de Hercule Poirot (Kenneth Branagh), o detetive está de volta para investigar mais um mistério na cidade mais bonita do mundo: Veneza. O homem é convidado pela amiga, Ariadne Olivier (Tina Fey) para participar de uma sessão espírita no casarão de Rowena Drake (Kelly Reilly), que carrega a fama de ser assombrada por fantasmas de crianças. A princípio, Poirot nega o convite, mas fica curioso ao descobrir que a sessão será conduzida pela misteriosa médium Senhora Reynolds (Michelle Yeoh), e tem o propósito de fazer contato com a filha de Rowena, Alicia (Rowan Robinson), que se suicidou - mas a mãe está convencida de que a garota tenha sido morta pelos fantasmas do local. Na noite da sessão, porém, um crime faz com que a situação tome um rumo macabro."
                            FontSize="Medium" Padding="5" />
                 </StackLayout>
             </Grid>

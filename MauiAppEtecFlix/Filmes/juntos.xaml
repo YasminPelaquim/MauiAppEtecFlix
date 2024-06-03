@@ -7,7 +7,7 @@
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0"
-                 Source="kkkkkkkkkk" />
+                 Source="https://www.youtube.com/embed/Ib3hZ1r3n0w?si=R2zRuOi6U9ESSnHI" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
@@ -17,18 +17,18 @@
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="çpçpçp" HorizontalOptions="Center" FontSize="17"
+                    <Label Text="15 de outubro de 2010" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                     <Label Text="Direção" Margin="0, 20, 0, 0" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="lllll" HorizontalOptions="Center" FontSize="17"
+                    <Label Text="Greg Berlanti" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
                              Grid.ColumnSpan="2">
                     <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label x:Name="sinopse" Text="kkkkkkkk"
+                    <Label x:Name="sinopse" Text="Juntos pelo Acaso acompanha Holly Berenson (Katherine Heigl) e Eric Messer (Josh Duhamel) que se conhecem, mas o primeiro encontro deles é um verdadeiro desastre. A única coisa que eles têm em comum é a paixão pela afilhada Sophie (Alexis Clagett/Brynn Clagett). Só que um acidente fatal deixou a menina órfã dos pais e a dupla foi designada para cuidar da pequenina. Obrigados a permanecerem juntos para cuidar dela, eles enfrentam as dificuldades típicas de quem passa a ser pai e mãe de uma hora para outra e começam a se entender melhor."
                            FontSize="Medium" Padding="5" />
                 </StackLayout>
             </Grid>

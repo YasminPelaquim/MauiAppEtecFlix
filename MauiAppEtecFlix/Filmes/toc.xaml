@@ -7,7 +7,7 @@
     <Grid RowDefinitions="*,*" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0"
-                 Source=" " />
+                 Source="https://www.youtube.com/embed/2kFqqwjhgyM?si=oKybU2dp_54C6Sl5" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
@@ -17,18 +17,18 @@
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="kkkkk" HorizontalOptions="Center" FontSize="17"
+                    <Label Text="31 de agosto de 2023" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                     <Label Text="Direção" Margin="0,20,0,0" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text=" " HorizontalOptions="Center" FontSize="17"
+                    <Label Text="Samuel Bodin" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
                              Grid.ColumnSpan="2">
                     <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label x:Name="sinopse" Text=" "
+                    <Label x:Name="sinopse" Text="TOC TOC TOC - Ecos do Além é um filme norte-americano de terror dirigido por Samuel Bodin (Marianne, T.A.N.K.) e estrelado por Lizzy Caplan, Antony Starr e Woody Norman. Ligeiramente inspirada no conto O Coração Delator, de Edgar Allan Poe, a trama se passa em uma pequena cidade, em uma casa aparentemente comum, e acompanha Peter (Norman), um tímido menino de oito anos. Um dia, Peter começa a ouvir uma misteriosa e incessante batida vinda de dentro da parede de seu quarto e, apesar de contar para os pais, eles insistem que tudo não passa de um fruto da imaginação fértil do filho. Porém, quando uma série de acontecimentos macabros começam a intensificar o medo de Peter, ele passa a suspeitar de que seus pais estejam escondendo um terrível segredo. Nessa família envolta em enigmas, caberá à professora substituta do menino levantar a questão: o que pode acontecer a partir de agora?"
                            FontSize="Medium" Padding="5" />
                 </StackLayout>
             </Grid>

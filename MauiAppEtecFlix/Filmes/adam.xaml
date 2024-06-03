@@ -7,7 +7,7 @@
     <Grid RowDefinitions="*,*" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0"
-                 Source=" " />
+                 Source="https://www.youtube.com/embed/miycJHABS1w?si=lLA62qXB0dSqTiVP" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
@@ -17,18 +17,18 @@
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="kkkkk" HorizontalOptions="Center" FontSize="17"
+                    <Label Text="11 de março de 2022" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                     <Label Text="Direção" Margin="0,20,0,0" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text=" " HorizontalOptions="Center" FontSize="17"
+                    <Label Text="Shawn Levy" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
                              Grid.ColumnSpan="2">
                     <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label x:Name="sinopse" Text=" "
+                    <Label x:Name="sinopse" Text="Em O Projeto Adam, Adam Reed é um menino de 13 anos que ainda está de luto pela morte repentina de seu pai um ano antes. Ele vai para a garagem de sua casa uma noite e acaba encontrando um piloto ferido escondido. Este misterioso piloto acaba por ser a versão mais antiga de si mesmo do futuro. Um futuro onde viagens no tempo são possíveis e ele acabou voltando para seu passado, presente de Adam de 13 anos. Ele arriscou tudo para voltar no tempo em uma missão secreta. Juntos, eles devem embarcar em uma aventura no passado para encontrar seu pai, acertar as coisas e salvar o mundo. Trabalhando juntos, tanto o jovem quanto o adulto Adam, aceitam a perda de seu pai e têm a chance de curar as feridas que os moldaram. Aumentando o desafio da missão, os dois Adams descobrem que realmente não gostam muito um do outro e, se quiserem salvar o mundo, primeiro terão que descobrir como se dar bem."
                            FontSize="Medium" Padding="5" />
                 </StackLayout>
             </Grid>

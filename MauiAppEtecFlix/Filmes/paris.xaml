@@ -7,7 +7,7 @@
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
         
         <WebView Grid.Column="0" Grid.Row="0"
-                 Source="lklokçpppppppp" />
+                 Source="https://www.youtube.com/embed/FDcsfr7bsE8?si=t1N2QHZ3owxQGXWq" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
@@ -17,18 +17,18 @@
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="popopo" HorizontalOptions="Center" FontSize="17"
+                    <Label Text="31 de março de 2023" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                     <Label Text="Direção" Margin="0, 20, 0, 0" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="lkkkjjjj" HorizontalOptions="Center" FontSize="17"
+                    <Label Text="Jeremy Garelick" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
                              Grid.ColumnSpan="2">
                     <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label x:Name="sinopse" Text="çlçl"
+                    <Label x:Name="sinopse" Text="Mistério em Paris é a sequência de Mistério no Mediterrâneo. Prepare seu passaporte e mochila de aventuras, Nick Spitz (Adam Sandler) e Audrey Spitz (Jennifer Aniston) estão de malas prontas para resolver outro mistério internacional. Depois dos eventos do primeiro longa, Nick e Audrey sofrem com o fracasso da agência de investigações que eles abriram. Agora detetives profissionais e em tempo integral, tentando fazer a agência de investigação ficar mais popular, dessa vez uma viagem para Paris cai no colo do casal. Quando tudo parece estar desandando de vez, o amigo em comum Maharajah (Adeel Akhtar) entra em contato comunicando que irá se casar; e o casal parte para um casamento indiano milionário com todo luxo que os convidados têm direito. Mas Maharajah é sequestrado no meio de sua própria festa de casamento e é então que começa uma caçada internacional da dupla de investigadores para resgatar o amigo milionário."
                            FontSize="Medium" Padding="5" />
                 </StackLayout>
             </Grid>

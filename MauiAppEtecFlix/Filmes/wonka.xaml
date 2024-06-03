@@ -7,7 +7,7 @@
     <Grid RowDefinitions="*,*" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0"
-                 Source=" " />
+                 Source="https://www.youtube.com/embed/otNh9bTjXWg?si=LKMf1qW_iTSnO2AF" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
@@ -17,18 +17,18 @@
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="kkkkk" HorizontalOptions="Center" FontSize="17"
+                    <Label Text="7 de dezembro de 2023" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                     <Label Text="Direção" Margin="0,20,0,0" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text=" " HorizontalOptions="Center" FontSize="17"
+                    <Label Text="Paul King" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
                              Grid.ColumnSpan="2">
                     <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label x:Name="sinopse" Text=" "
+                    <Label x:Name="sinopse" Text="Wonka é uma comédia musical baseada no clássico livro A Fantástica Fábrica de Chocolate, do autor britânico Roald Dahl. O filme mostra as origens da história do jovem Willy Wonka (interpretado por Timothée Chalamet), que apareceu nos cinemas pela primeira vez na produção de 1971 e, mais tarde, ganhou um remake estrelado por Johnny Depp em 2005. Antes de se tornar a mente brilhante por trás da maior fábrica de chocolate do mundo, Willy precisou enfrentar vários obstáculos. Cheio de ideias e determinado a mudar o mundo, o jovem Wonka embarca em uma aventura para espalhar alegria através de seu delecioso chocolate. Nela, ele acabou conhecendo o seu fiel e icônico assistente, Oompa Loompa (interpretado por Hugh Grant), que o ajudar a ir contra todas as probabilidades para se tornar o maior chocolatier já visto. Mostrando que as melhores coisas da vida começam com um sonho, o filme mistura magia, música, caos, afeição e muito humor."
                            FontSize="Medium" Padding="5" />
                 </StackLayout>
             </Grid>

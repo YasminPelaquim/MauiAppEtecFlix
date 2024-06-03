@@ -7,7 +7,7 @@
     <Grid RowDefinitions="*,*" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0"
-                 Source=" " />
+                 Source="https://www.youtube.com/embed/GSUf-OKcDfg?si=A3ov-ukIsOIeCGdA" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
@@ -17,18 +17,18 @@
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}"/>
-                    <Label Text=" " HorizontalOptions="Center" FontSize="17"
+                    <Label Text="26 de fevereiro de 2023" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                     <Label Text="Direção" Margin="0,20,0,0" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text=" " HorizontalOptions="Center" FontSize="17"
+                    <Label Text="Darren Aronofsky" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
                              Grid.ColumnSpan="2">
                     <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label x:Name="sinopse" Text=" "
+                    <Label x:Name="sinopse" Text="Em A Baleia, seguimos um professor de inglês e seu relacionamento fragilizado com sua filha, Ellie. Charlie (Brendan Fraser) é um professor de inglês recluso, que vive com obesidade severa e luta contra um transtorno de compulsão alimentar. Ele dá aulas online, mas sempre deixa a webcam desligada, com medo de sua aparência. Apesar de viver sozinho, ele é cuidado pela sua amiga e enfermeira, Liz (Hong Chau). Mesmo assim, ele é sozinho, convivendo diariamente apenas com a culpa, por ter abandonado Ellie (Sadie Sink), sua filha hoje adolescente que ele deixou junto com a mãe Mary (Samantha Morton), ao se apaixonar por um homem. Agora, ele irá buscar se reconectar com a filha adolescente e reparar seus erros do passado. Para isso, ele pede para que Ellie vá visitá-lo sem avisar sua mãe e ela aceita, com o única condição de que ele a ajuda a reescrever uma redação para a escola."
                            FontSize="Medium" Padding="5" />
                 </StackLayout>
             </Grid>

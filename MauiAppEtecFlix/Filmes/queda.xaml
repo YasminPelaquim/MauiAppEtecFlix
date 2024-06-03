@@ -7,7 +7,7 @@
     <Grid RowDefinitions="*,*" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0"
-                 Source=" " />
+                 Source="https://www.youtube.com/embed/dOZu3nm0fBQ?si=FwY5Q22pj3BlFkWP" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
@@ -17,18 +17,18 @@
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="kkkkk" HorizontalOptions="Center" FontSize="17"
+                    <Label Text="29 de setembro de 2022" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                     <Label Text="Direção" Margin="0,20,0,0" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text=" " HorizontalOptions="Center" FontSize="17"
+                    <Label Text="Scott Mann" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
                              Grid.ColumnSpan="2">
                     <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label x:Name="sinopse" Text=" "
+                    <Label x:Name="sinopse" Text="Para as melhores amigas Becky (Grace Caroline Currey) e Hunter (Virginia Gardner), a vida é sobre vencer medos e ultrapassar limites. A alpinista emocionalmente abalada, Becky, afogada em um mar de tristeza, vivendo semanas dolorosas após o incidente que a marcou para toda a vida, relutantemente decide enfrentar seus fantasmas quando sua amiga, outra alpinista experiente, a convence a embarcar em uma aventura de escalada de alto risco, até o topo de uma torre de TV abandonada. No entanto, depois de subir até o topo da torre de rádio remota e abandonada, elas se encontram sem saída. Quando a escalada perigosa não sai como planejado, as mulheres devem reunir toda a coragem e força para elaborar um plano para um retorno seguro para casa - ou morrer tentando. Agora, as habilidades de escalada de Becky e Hunter serão postas à prova enquanto lutam desesperadamente para sobreviver aos elementos, à falta de suprimentos e à altura extrema."
                            FontSize="Medium" Padding="5" />
                 </StackLayout>
             </Grid>
