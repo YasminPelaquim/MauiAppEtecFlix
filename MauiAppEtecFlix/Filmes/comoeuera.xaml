@@ -2,11 +2,36 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppEtecFlix.Filmes.comoeuera"
-             Title="comoeuera">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="comoeuera"
+             BackgroundColor="#2f2f30">
+    <Grid RowDefinitions="*,*" ColumnDefinitions="*">
+
+        <WebView Grid.Column="0" Grid.Row="0"
+                 Source="https://www.youtube.com/embed/PnqUs3xiAVI?si=eACTbDTHE7pgHV86" />
+
+        <ScrollView Grid.Row="1" Grid.Column="0">
+            <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
+                <Image Grid.Column="0" Grid.Row="0"
+                       Source="comoeuera.jpeg" Aspect="AspectFill" HeightRequest="300" />
+                <StackLayout VerticalOptions="CenterAndExpand"
+                             Grid.Column="1" Grid.Row="0">
+                    <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource titulo}" />
+                    <Label Text="16 de junho de 2016" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource textoTitulo}" />
+                    <Label Text="Direção" Margin="0, 20, 0, 0" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource titulo}" />
+                    <Label Text="Thea Sharrock" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource textoTitulo}" />
+                </StackLayout>
+                <StackLayout Grid.Column="0" Grid.Row="1"
+                             Grid.ColumnSpan="2">
+                    <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource titulo}" />
+                    <Label x:Name="sinopse" Text="Em Como Eu Era Antes de Você, o rico e bem sucedido Will (Sam Claflin) leva uma vida repleta de conquistas, viagens e esportes radicais até ser atingido por uma moto. O acidente o torna tetraplégico, obrigando-o a permanecer em uma cadeira de rodas. A situação o torna depressivo e extremamente cínico, para a preocupação de seus pais (Janet McTeer e Charles Dance). É neste contexto que Louisa Clark (Emilia Clarke) é contratada para cuidar de Will. De origem modesta, com dificuldades financeiras e sem grandes aspirações na vida, ela faz o possível para melhorar o estado de espírito de Will e, aos poucos, acaba se envolvendo com ele."
+                           FontSize="Medium" Padding="5" />
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </Grid>
 </ContentPage>

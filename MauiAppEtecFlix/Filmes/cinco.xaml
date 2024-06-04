@@ -2,11 +2,36 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppEtecFlix.Filmes.cinco"
-             Title="cinco">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="cinco"
+             BackgroundColor="#2f2f30">
+    <Grid RowDefinitions="*,*" ColumnDefinitions="*">
+
+        <WebView Grid.Column="0" Grid.Row="0"
+                 Source="https://www.youtube.com/embed/OL-Xy-LzP_4?si=DqwqtxQXl8PI02q-" />
+
+        <ScrollView Grid.Row="1" Grid.Column="0">
+            <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
+                <Image Grid.Column="0" Grid.Row="0"
+                       Source="cinco.jpeg" Aspect="AspectFill" HeightRequest="300" />
+                <StackLayout VerticalOptions="CenterAndExpand"
+                             Grid.Column="1" Grid.Row="0">
+                    <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource titulo}" />
+                    <Label Text="21 de março de 2019" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource textoTitulo}" />
+                    <Label Text="Direção" Margin="0, 20, 0, 0" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource titulo}" />
+                    <Label Text="Justin Baldoni" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource textoTitulo}" />
+                </StackLayout>
+                <StackLayout Grid.Column="0" Grid.Row="1"
+                             Grid.ColumnSpan="2">
+                    <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource titulo}" />
+                    <Label x:Name="sinopse" Text="No enredo de A Cinco Passos de Você, Stella Grant (Haley Lu Richardson), aos dezesseis anos de idade, é diferente da maior parte dos adolescentes: devido a uma fibrose cística, ela passa muito tempo no hospital, entre tratamentos e acompanhamento médico. Um dia, conhece Will Newman (Cole Sprouse), garoto que sofre da mesma doença que ela. A atração é imediata, porém os dois são obrigados a manter distância um do outro por questões de saúde. Enquanto Stella pensa em quebrar as regras e se aproximar do garoto da sua vida, Will começa a se rebelar contra o sistema e recusar o rigoroso tratamento."
+                           FontSize="Medium" Padding="5" />
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </Grid>
 </ContentPage>

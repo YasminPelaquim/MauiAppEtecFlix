@@ -5,6 +5,33 @@
              Title="auto"
              BackgroundColor="#2f2f30">
     <Grid RowDefinitions="*,*" ColumnDefinitions="*">
-        
+
+        <WebView Grid.Column="0" Grid.Row="0"
+                 Source="https://www.youtube.com/embed/YroEX9bx0fM?si=FHhHro7RNNhdxnxh" />
+
+        <ScrollView Grid.Row="1" Grid.Column="0">
+            <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
+                <Image Grid.Column="0" Grid.Row="0"
+                       Source="auto.jpeg" Aspect="AspectFill" HeightRequest="300" />
+                <StackLayout VerticalOptions="CenterAndExpand"
+                             Grid.Column="1" Grid.Row="0">
+                    <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource titulo}" />
+                    <Label Text="10 de setembro de 2000" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource textoTitulo}" />
+                    <Label Text="Direção" Margin="0, 20, 0, 0" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource titulo}" />
+                    <Label Text="Guel Arraes" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource textoTitulo}" />
+                </StackLayout>
+                <StackLayout Grid.Column="0" Grid.Row="1"
+                             Grid.ColumnSpan="2">
+                    <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource titulo}" />
+                    <Label x:Name="sinopse" Text="As aventuras dos nordestinos João Grilo (Matheus Natchergaele), um sertanejo pobre e mentiroso, e Chicó (Selton Mello), o mais covarde dos homens. Ambos lutam pelo pão de cada dia e atravessam por vários episódios enganando a todos do pequeno vilarejo de Taperoá, no sertão da Paraíba. A salvação da dupla acontece com a aparição da Nossa Senhora (Fernanda Montenegro). Adaptação da obra de Ariano Suassuna."
+                           FontSize="Medium" Padding="5" />
+                </StackLayout>
+            </Grid>
+        </ScrollView>
     </Grid>
 </ContentPage>
