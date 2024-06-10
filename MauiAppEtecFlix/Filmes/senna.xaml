@@ -7,6 +7,30 @@
     <Grid RowDefinitions="*,*" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0"
-                 Source=" " />
+                 Source="https://www.youtube.com/embed/QOQLeqRcgKc?si=05o0oIF3R_v2PytJ" />
+        <ScrollView Grid.Row="1" Grid.Column="0">
+            <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
+                <Image Grid.Column="0" Grid.Row="0"
+                       Source="senna.jpeg" Aspect="AspectFill" HeightRequest="300" />
+                <StackLayout VerticalOptions="CenterAndExpand"
+                             Grid.Column="1" Grid.Row="0">
+                    <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource titulo}" />
+                    <Label Text="12 de novembro de 2010" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource textoTitulo}" />
+                    <Label Text="Direção" Margin="0,20,0,0" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource titulo}" />
+                    <Label Text="Asif Kapadia" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource textoTitulo}"/>
+                </StackLayout>
+                <StackLayout Grid.Column="0" Grid.Row="1"
+                             Grid.ColumnSpan="2">
+                    <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
+                           Style="{StaticResource titulo}" />
+                    <Label x:Name="sinopse" Text="O documentário Senna: O Brasileiro, O Herói, O Campeão conta a história do ídolo brasileiro Ayrton Senna. Em Junho de 1984, GP de Mônaco de Fórmula 1. Seis atuais ou futuros campeões mundiais estavam na pista, mas as atenções ficaram voltadas para um jovem que largara em 13º lugar e estava apenas em sua sexta corrida. Ultrapassando um a um, ele alcançou seu primeiro pódio e apenas não venceu devido a uma questão técnica. Seu nome era Ayrton Senna. Toda trajetória do tricampeão mundial, contada desde a ascensão no automobilismo até sua morte em pleno GP de San Marino, em 1994, passando pela rivalidade com Alain Prost e os problemas enfrentados nos bastidores da Fórmula 1."
+                           FontSize="Medium" Padding="5"/>
+                </StackLayout>
+            </Grid>
+        </ScrollView>
     </Grid>
 </ContentPage>

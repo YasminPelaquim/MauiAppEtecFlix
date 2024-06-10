@@ -4,13 +4,13 @@
              x:Class="MauiAppEtecFlix.Filmes.gente"
              Title="gente"
              BackgroundColor="#2f2f30">
-    <Grid RowDefinitions="*, *" ColumnDefinitions="*">
+    <Grid RowDefinitions="*,*" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0"
                  Source="https://www.youtube.com/embed/HKVve_VSz58?si=rrpiDdnKEwr0_DNM" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
-            <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
+            <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
                 <Image Grid.Column="0" Grid.Row="0"
                        Source="gente.jpg" Aspect="AspectFill" HeightRequest="300" />
                 <StackLayout VerticalOptions="CenterAndExpand"

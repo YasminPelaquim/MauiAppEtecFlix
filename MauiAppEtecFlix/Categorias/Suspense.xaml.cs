@@ -20,11 +20,6 @@ public partial class Suspense : ContentPage
         }
     }
 
-    private void btnTelefone_Clicked_1(object sender, EventArgs e)
-    {
-        
-    }
-
     private void btnNoite_Clicked(object sender, EventArgs e)
     {
         try
