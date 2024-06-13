@@ -15,19 +15,19 @@
                        Source="jumanji.jpg" Aspect="AspectFill"  HeightRequest="300" />
                 <StackLayout VerticalOptions="CenterAndExpand"
                              Grid.Column="1" Grid.Row="0">
-                    <Label Text="Data de Lançamento"
+                    <Label Text="Data de Lançamento" HorizontalOptions="Center"  FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="4 de janeiro de 2018"
+                    <Label Text="4 de janeiro de 2018" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
-                    <Label Text="Direção" Margin="0, 20, 0, 0"
+                    <Label Text="Direção" Margin="0, 20, 0, 0" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="Jake Kasdan"
+                    <Label Text="Jake Kasdan" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
                              Grid.ColumnSpan="2">
 
-                    <Label Text="Sinopse"
+                    <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
                     <Label x:Name="sinopse" Text="Quatro adolescentes encontram um videogame cuja ação se passa em uma floresta tropical. Empolgados com o jogo, eles escolhem seus avatares para o desafio, mas um evento inesperado faz com que eles sejam transportados para dentro do universo fictício, transformando-os nos personagens da aventura."
                            FontSize="Medium" Padding="5" />

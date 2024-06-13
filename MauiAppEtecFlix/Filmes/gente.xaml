@@ -24,12 +24,12 @@
                     <Label Text="Dennis Dugan" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                 </StackLayout>
-                <StackLayout Grid.Column="0" Grid.Row="0"
+                <StackLayout Grid.Column="0" Grid.Row="1"
                              Grid.ColumnSpan="2">
                     <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
                     <Label x:Name="sinopse" Text="Em Gente Grande, Lenny (Adam Sandler), Kurt (Chris Rock), Eric (Kevin James), Marcus (David Spade) e Rob (Rob Schneider) se conhecem desde pequenos. Passados trinta anos, os cinco amigos se reencontram para curtir um fim de semana juntos com as respectivas famílias, mas o feriado de 4 de Julho em uma casa no lago promete muito mais diversão do que apenas lembranças dos bons momentos. Casados e com várias crianças, os homens de família terão de confrontar o fato de não serem mais tão jovens."
-                           FontSize="Medium" Padding="5" />
+                           FontSize="Medium" Padding="5"/>
                 </StackLayout>
             </Grid>
         </ScrollView>

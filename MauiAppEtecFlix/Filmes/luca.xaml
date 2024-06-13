@@ -12,7 +12,7 @@
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
                 <Image Grid.Column="0" Grid.Row="0"
-                       Source="luca.jpeg" Aspect="AspectFill" HeightRequest="300" />
+                       Source="luca.png" Aspect="AspectFill" HeightRequest="300" />
                 <StackLayout VerticalOptions="CenterAndExpand"
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento"  HorizontalOptions="Center" FontSize="17"

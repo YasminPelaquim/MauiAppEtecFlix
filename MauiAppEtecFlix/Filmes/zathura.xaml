@@ -15,19 +15,19 @@
                        Source="zathura.jpg" Aspect="AspectFill" HeightRequest="300" />
                 <StackLayout VerticalOptions="CenterAndExpand"
                              Grid.Column="1" Grid.Row="0">
-                    <Label Text="Data de Lançamento"
+                    <Label Text="Data de Lançamento" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="8 de novembro de 2005"
+                    <Label Text="8 de novembro de 2005" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
-                    <Label Text="Direção" Margin="0, 20, 0, 0"
+                    <Label Text="Direção" Margin="0, 20, 0, 0" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
-                    <Label Text="Jon Favreau"
+                    <Label Text="Jon Favreau" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource textoTitulo}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
                              Grid.ColumnSpan="2">
 
-                    <Label Text="Sinopse"
+                    <Label Text="Sinopse" HorizontalOptions="Center" FontSize="17"
                            Style="{StaticResource titulo}" />
                     <Label x:Name="sinopse" Text="No filme, dois garotos descobrem o espaço em um jogo achado no porão, onde tudo dentro se torna real quando eles o jogam."
                            FontSize="Medium" Padding="5"/>
